@@ -67,26 +67,28 @@ The webcam application:
 
 ## How to Run the Project
 
-# 1️⃣ **Clone the Repository**  
+## 1️⃣ **Clone the Repository**  
 
 git clone https://github.com/PrasadWijesinghe/Real-Time-Emotion-Recognition.git
 cd Real-Time-Emotion-Recognition
 
-# 2️⃣ Create & Activate Virtual Environment
+## 2️⃣ Create & Activate Virtual Environment
 
 python -m venv emotion_env
 .\emotion_env\Scripts\Activate.ps1   # Windows PowerShell
 
-# 3️⃣ Install Dependencies
+## 3️⃣ Install Dependencies
 
 pip install -r requirements.txt
 
-# 4️⃣ Run Webcam Emotion Detection
+## 4️⃣ Run Webcam Emotion Detection
 
 python .\webcam_emotion.py
 
 
-⚠️ Limitations
+
+
+##⚠️ Limitations
 
 Sensitive to lighting conditions
 
