@@ -1,4 +1,4 @@
-# 🎭 Real-Time Emotion Recognition using CNN & OpenCV
+# Real-Time Emotion Recognition using CNN & OpenCV
 
 A real-time facial emotion recognition system built using **Convolutional Neural Networks (CNN)** and **OpenCV**. The system detects human faces from a webcam feed and predicts the corresponding facial emotion **in real time**.
 
@@ -6,7 +6,7 @@ This project demonstrates an **end-to-end machine learning workflow**: data prep
 
 ---
 
-## 📌 Features
+## Features
 
 - Real-time face detection using Haar Cascade Classifier  
 - Emotion classification using a CNN trained on grayscale facial images  
@@ -16,7 +16,7 @@ This project demonstrates an **end-to-end machine learning workflow**: data prep
 
 ---
 
-## 🧠 Emotions Detected
+## Emotions Detected
 
 The model predicts **7 facial emotions**:
 
@@ -30,7 +30,7 @@ The model predicts **7 facial emotions**:
 
 ---
 
-## ⚙️ Technologies Used
+## Technologies Used
 
 - Python  
 - TensorFlow / Keras  
@@ -41,7 +41,7 @@ The model predicts **7 facial emotions**:
 
 ---
 
-## 📊 Model Details
+## Model Details
 
 - **Input shape:** 48 × 48 grayscale images  
 - **Architecture:** Convolutional Neural Network (CNN)  
@@ -53,7 +53,7 @@ The model was trained on a facial emotion dataset with proper normalization and 
 
 ---
 
-## 🎥 Real-Time Emotion Detection
+## Real-Time Emotion Detection
 
 The webcam application:
 
@@ -65,23 +65,23 @@ The webcam application:
 
 ---
 
-## 💻 How to Run the Project
+## How to Run the Project
 
-1️⃣ **Clone the Repository**  
+# 1️⃣ **Clone the Repository**  
 
 git clone https://github.com/PrasadWijesinghe/Real-Time-Emotion-Recognition.git
 cd Real-Time-Emotion-Recognition
 
-2️⃣ Create & Activate Virtual Environment
+# 2️⃣ Create & Activate Virtual Environment
 
 python -m venv emotion_env
 .\emotion_env\Scripts\Activate.ps1   # Windows PowerShell
 
-3️⃣ Install Dependencies
+# 3️⃣ Install Dependencies
 
 pip install -r requirements.txt
 
-4️⃣ Run Webcam Emotion Detection
+# 4️⃣ Run Webcam Emotion Detection
 
 python .\webcam_emotion.py
 
