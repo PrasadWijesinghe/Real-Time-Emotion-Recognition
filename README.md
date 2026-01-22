@@ -86,9 +86,7 @@ pip install -r requirements.txt
 python .\webcam_emotion.py
 
 
-
-
-##⚠️ Limitations
+## Limitations
 
 Sensitive to lighting conditions
 
